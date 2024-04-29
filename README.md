@@ -17,7 +17,7 @@ In preprocessing_embryo_dataset.ipynb: The dataset was read and classified into 
 ## Data Splitting
 The images were split into training and testing with a split ratio of 80% train and 20% test, then the train was further split into training and validation with a split ratio of 20%.
 
-## Model Selection % Architecture
+## Model Selection & Architecture
 The chosen model was ResNet101, as it was previously used in similar cases and resulted in the highest accuracy. GlobalAveragePooling2D was applied and a final layer was added with a Sigmoid activation function.
 
 ## Training, Testing, and Evaluation
