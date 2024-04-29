@@ -7,6 +7,7 @@
 
 ## Preprocessing
 The original data was classified into four folders, where each folder contained two main things: a folder that has the images (allimagees), and a file that contains the paths to these images with their corresponding labels (target). 
+
 For the folders named ed1 and ed2, the labels were classified into 0/1/2/3. 0/1 refer to non-blastocysts, while 2/3/4 refer to blastocysts.
 For the folders named ed3 and ed4, the labels were classified into 0/1. 0 refers to non-blastocysts, while 1 refers to blastocysts.
 
