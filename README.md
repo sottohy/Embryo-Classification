@@ -17,12 +17,16 @@ In preprocessing_embryo_dataset.ipynb: The dataset was read and classified into 
 ## Data Splitting
 The images were split into training and testing with a split ratio of 80% train and 20% test, then the train was further split into training and validation with a split ratio of 20%.
 
-## Model Selection $ Architecture
+## Model Selection % Architecture
 The chosen model was ResNet101, as it was previously used in similar cases and resulted in the highest accuracy. GlobalAveragePooling2D was applied and a final layer was added with a Sigmoid activation function.
 
 ## Training, Testing, and Evaluation
 A test accuracy of 93% was reached.
 
+![download](https://github.com/sottohy/Sperm-Embryo-classification-models/assets/91037437/fd2ab9b1-ec28-4b38-9521-81500545c885)
+
+
+![download (1)](https://github.com/sottohy/Sperm-Embryo-classification-models/assets/91037437/d6929596-e0bc-42bc-ac46-82abec262f46)
 
 
 
