@@ -11,7 +11,7 @@ The original data was classified into four folders, where each folder contained 
 For the folders named ed1 and ed2, the labels were classified into 0/1/2/3. 0/1 refer to non-blastocysts, while 2/3/4 refer to blastocysts.
 For the folders named ed3 and ed4, the labels were classified into 0/1. 0 refers to non-blastocysts, while 1 refers to blastocysts.
 
-In preprocessing_embryo_dataset.ipynb:
+#### In preprocessing_embryo_dataset.ipynb:
 The dataset was read and classified into "good" and "bad" folders using ImageDataGenerator. The good folder contained 834 images and the bad folder contained 627 images. Data augmentation was performed on both classes where rotation and flipping were applied, resulting in a total of 1551 images for the good folder and 1113 images for the bad folder.
 
 The images were then split into training and testing with a split ratio of 80% train and 20% test.
