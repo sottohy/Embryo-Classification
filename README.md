@@ -28,7 +28,10 @@ A test accuracy of 93% was reached.
 
 ![download (1)](https://github.com/sottohy/Sperm-Embryo-classification-models/assets/91037437/d6929596-e0bc-42bc-ac46-82abec262f46)
 
+## Demo of the website (so far)
+![Screenshot (2421)](https://github.com/sottohy/Sperm-Embryo-classification-models/assets/91037437/fca48d40-d2ed-4e2b-b0e3-0029d4fb2165)
 
+![Screenshot (2423)](https://github.com/sottohy/Sperm-Embryo-classification-models/assets/91037437/875fb5a0-41a4-4cae-a787-476bdedcfce3)
 
 
 
