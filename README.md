@@ -8,7 +8,7 @@ This project aims to develop a model that aids in the IVF process by classifying
 The goal of this project is to improve the efficiency, precision, and success rates of IVF procedures by automating the classification of embryo images. The model classifies images as either blastocysts (good) or non-blastocysts (bad).
 
 
-##Data Description
+## Data Description
 The dataset used in this project consists of embryo images classified into four folders: ED1, ED2, ED3, and ED4. The classification criteria are as follows:
 
 - ED1, ED2, ED4: These folders use a 5-category system.
@@ -19,7 +19,7 @@ The dataset used in this project consists of embryo images classified into four 
   - Folder 2: Non-blastocysts
 
 
-##Dependencies
+## Dependencies
 The project requires the following libraries:
 
 - pandas
@@ -30,11 +30,11 @@ The project requires the following libraries:
 - torchvision
 
 
-##Data Preprocessing
+## Data Preprocessing
 1. Loading Data: The embryo images are loaded from the specified directories.
 2. Data Augmentation: Augmentation techniques are applied to increase the dataset size, including horizontal flipping, rotation, brightness adjustment, and contrast adjustment.
 
-###Data Augmentation Script
+### Data Augmentation Script
 The script for data augmentation performs the following steps:
 
 - Flips the image horizontally.
@@ -43,15 +43,15 @@ The script for data augmentation performs the following steps:
 - Saves the augmented image to the appropriate output folder.
 
 
-##Modeling
+## Modeling
 ###Model Selection
 The ResNet101 model was chosen due to its proven performance in similar classification tasks. The model was fine-tuned using the preprocessed and augmented dataset.
 
-###Training, Testing, and Evaluation
+### Training, Testing, and Evaluation
 - Training: The model was trained using the processed dataset, achieving a high accuracy.
 - Testing: The model's performance was evaluated on a test set, resulting in a test accuracy of 93%.
 
-###Results
+### Results
 - Confusion Matrix: The confusion matrix for the test results is provided below.
 ![malak cm 93](https://github.com/sottohy/Embryo-Classification/assets/91037437/c22c6efa-bd88-48b8-ac92-df85c42fde4c)
 
@@ -59,7 +59,7 @@ The ResNet101 model was chosen due to its proven performance in similar classifi
 ![malak accuracy 93](https://github.com/sottohy/Embryo-Classification/assets/91037437/e9c347fa-2507-48f2-bdff-60ade59ae6d3)
 
 
-##Usage
+## Usage
 To run this project, follow these steps:
 
 - Install the required dependencies.
@@ -67,7 +67,7 @@ To run this project, follow these steps:
 - Execute the provided notebook to preprocess the data, perform data augmentation, train the model, and evaluate its performance.
 
 
-##Creating the Website
+## Creating the Website
 The website for this project is currently under development. It will be created using HTML, CSS, and Flask to connect the model for real-time embryo classification.
 
 
