@@ -2,10 +2,13 @@
 
 This project aims to develop a model that aids in the IVF process by classifying embryo images as good or bad, depending on the presence of blastocysts. The model uses transfer learning with ResNet101 to achieve high accuracy.
 
+
 ## Link to the dataset: https://osf.io/3kc2d/
 
-##Project Overview
+
+## Project Overview
 The goal of this project is to improve the efficiency, precision, and success rates of IVF procedures by automating the classification of embryo images. The model classifies images as either blastocysts (good) or non-blastocysts (bad).
+
 
 
 ## Data Description
@@ -19,6 +22,7 @@ The dataset used in this project consists of embryo images classified into four 
   - Folder 2: Non-blastocysts
 
 
+
 ## Dependencies
 The project requires the following libraries:
 
@@ -28,6 +32,7 @@ The project requires the following libraries:
 - matplotlib
 - torch
 - torchvision
+
 
 
 ## Data Preprocessing
@@ -41,6 +46,7 @@ The script for data augmentation performs the following steps:
 - Rotates the image by 90 degrees.
 - Adjusts brightness and contrast randomly.
 - Saves the augmented image to the appropriate output folder.
+
 
 
 ## Modeling
@@ -57,6 +63,7 @@ The ResNet101 model was chosen due to its proven performance in similar classifi
 
 - Accuracy Plot: The accuracy plot shows the model's performance during training and testing.
 ![malak accuracy 93](https://github.com/sottohy/Embryo-Classification/assets/91037437/e9c347fa-2507-48f2-bdff-60ade59ae6d3)
+
 
 
 ## Usage
