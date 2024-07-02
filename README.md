@@ -1,4 +1,4 @@
-# Embryo classification model using Transfer Learning
+# Embryo Classification Model Using Transfer Learning
 
 ## Classification model for embryo images depending on the presence of blastocysts
 ## Link to the dataset: https://osf.io/3kc2d/
@@ -6,19 +6,15 @@
 #### The motivation behind this project is to develop a model that aids in the IVF process by classifying embryo images as good or bad. The goodness or badnees of the images depend on whether the embryo is a blastocyst or not, respectively. The main idea of the project is to create a model designed for the selection phase in the IVF process. This model aims to improve the efficiency, precision, and success rates of IVF procedures by eliminating the human error factor.
 
 ## Preprocessing
-The original data was classified into four folders, where each folder contained two main things: a folder that has the images (allimagees), and a file that contains the paths to these images with their corresponding labels (target). 
+The original data was classified into four folders, ED1, ED2, ED3, and ED4.
 
-For the folders named ed1 and ed2, the labels were classified into 0/1/2/3. 0/1 refer to non-blastocysts, while 2/3/4 refer to blastocysts.
+Folders ED1, ED2, and ED4 has 5 folders inside of them and use the 5-category system, where folders 1,2 refer to non-blastocysts and folders 3, 4, 5 refer to blastocysts.
 
-For the folders named ed3 and ed4, the labels were classified into 0/1. 0 refers to non-blastocysts, while 1 refers to blastocysts.
+The ED3 folder has 2 folders inside of it and use the 2-category system, where folder 1 refers to blastocysts and folder 2 refers to non-blastocysts.
 
-In preprocessing_embryo_dataset.ipynb: The dataset was read and classified into "good" and "bad" folders using ImageDataGenerator. The good folder contained 834 images and the bad folder contained 627 images. Data augmentation was performed on both classes where rotation and flipping were applied, resulting in a total of 1551 images for the good folder and 1113 images for the bad folder.
-
-## Data Splitting
-The images were split into training and testing with a split ratio of 80% train and 20% test, then the train was further split into training and validation with a split ratio of 20%.
 
 ## Model Selection & Architecture
-The chosen model was ResNet101, as it was previously used in similar cases and resulted in the highest accuracy. GlobalAveragePooling2D was applied and a final layer was added with a Sigmoid activation function.
+The chosen model was ResNet101, as it was previously used in similar cases and resulted in the highest accuracy. 
 
 ## Training, Testing, and Evaluation
 A test accuracy of 93% was reached.
