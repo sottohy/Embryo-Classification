@@ -23,16 +23,14 @@ The chosen model was ResNet101, as it was previously used in similar cases and r
 ## Training, Testing, and Evaluation
 A test accuracy of 93% was reached.
 
-![download](https://github.com/sottohy/Sperm-Embryo-classification-models/assets/91037437/fd2ab9b1-ec28-4b38-9521-81500545c885)
+![malak accuracy 93](https://github.com/sottohy/Embryo-Classification/assets/91037437/e9c347fa-2507-48f2-bdff-60ade59ae6d3)
 
-
-![download (1)](https://github.com/sottohy/Sperm-Embryo-classification-models/assets/91037437/d6929596-e0bc-42bc-ac46-82abec262f46)
+![malak cm 93](https://github.com/sottohy/Embryo-Classification/assets/91037437/c22c6efa-bd88-48b8-ac92-df85c42fde4c)
 
 ## Demo of the website (Under development)
-![Screenshot (2421)](https://github.com/sottohy/Sperm-Embryo-classification-models/assets/91037437/fca48d40-d2ed-4e2b-b0e3-0029d4fb2165)
+![Screenshot (2584)](https://github.com/sottohy/Embryo-Classification/assets/91037437/8e65a352-c04f-426c-ab87-67f2e4067442)
 
-![Screenshot (2423)](https://github.com/sottohy/Sperm-Embryo-classification-models/assets/91037437/875fb5a0-41a4-4cae-a787-476bdedcfce3)
-
+![Screenshot (2585)](https://github.com/sottohy/Embryo-Classification/assets/91037437/268a591f-561b-4a1e-8e14-3996342992b2)
 
 
 
