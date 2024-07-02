@@ -50,7 +50,7 @@ The script for data augmentation performs the following steps:
 
 
 ## Modeling
-###Model Selection
+### Model Selection
 The ResNet101 model was chosen due to its proven performance in similar classification tasks. The model was fine-tuned using the preprocessed and augmented dataset.
 
 ### Training, Testing, and Evaluation
